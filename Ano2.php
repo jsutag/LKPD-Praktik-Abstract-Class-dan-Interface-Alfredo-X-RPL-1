@@ -31,8 +31,8 @@ class Lingkaran extends BangunDatar
   }
 }
 
-$Persegi = new Persegi(15);
-$Lingkaran = new Lingkaran(9);
+$Persegi = new Persegi(10);
+$Lingkaran = new Lingkaran(7);
 
 echo "Luas persegi dengan sisi 10 adalah: " .
   $Persegi->hitungLuas() .
